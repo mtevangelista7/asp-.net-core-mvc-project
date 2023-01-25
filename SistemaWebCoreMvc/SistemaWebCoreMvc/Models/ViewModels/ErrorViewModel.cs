@@ -1,4 +1,4 @@
-namespace SistemaWebCoreMvc.Models
+namespace SistemaWebCoreMvc.Models.ViewModels
 {
     public class ErrorViewModel
     {
