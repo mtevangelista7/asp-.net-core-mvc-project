@@ -14,6 +14,8 @@ namespace SistemaWebCoreMvc.Data
         {
         }
 
-        public DbSet<SistemaWebCoreMvc.Models.Departamento> Departamento { get; set; } = default!;
+        public DbSet<Departamento> Departamento { get; set; }
+        public DbSet<Vendedor> Vendedor { get; set; }
+        public DbSet<Venda> Venda { get; set; }
     }
 }

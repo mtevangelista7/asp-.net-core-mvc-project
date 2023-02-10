@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SistemaWebCoreMvc.Data;
 
@@ -11,9 +12,10 @@ using SistemaWebCoreMvc.Data;
 namespace SistemaWebCoreMvc.Migrations
 {
     [DbContext(typeof(SistemaWebCoreMvcContext))]
-    partial class SistemaWebCoreMvcContextModelSnapshot : ModelSnapshot
+    [Migration("20230210011421_OutrasEntidades")]
+    partial class OutrasEntidades
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
